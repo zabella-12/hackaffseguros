@@ -12,7 +12,7 @@ Sistema web para realizar as solicitações do seguro e acompanhamento da solici
 - Node
 - Yarn
 
-### Instalar depências:
+### Instalar dependências:
 
 ```bash
 cd front-end
