@@ -3,7 +3,7 @@
 ## Stack
 
 <div align="center">
-  <img width="500" alt="image" src="https://user-images.githubusercontent.com/6686410/172063305-d8d81c5f-fd7c-41ef-8c43-d4713b51aa33.png">
+  <img width="500" alt="image" src="https://user-images.githubusercontent.com/6686410/172063580-99cc1688-63cc-4ae4-8d8b-51d8756ec5b1.png">
 </div>
 
 ## Back-End
