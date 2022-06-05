@@ -32,6 +32,11 @@
     "@types/node" "*"
     "@types/webidl-conversions" "*"
 
+"@xmldom/xmldom@^0.7.5":
+  version "0.7.5"
+  resolved "https://registry.yarnpkg.com/@xmldom/xmldom/-/xmldom-0.7.5.tgz#09fa51e356d07d0be200642b0e4f91d8e6dd408d"
+  integrity sha512-V3BIhmY36fXZ1OtVcI9W+FxQqxVLsPKcNjWigIaa81dLC9IolJl5Mt4Cvhmr0flUnjSpTdrbMTSbXqYqV5dT6A==
+
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
@@ -1050,6 +1055,20 @@ path-to-regexp@0.1.7:
   version "0.1.7"
   resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-0.1.7.tgz#df604178005f522f15eb4490e7247a1bfaa67f8c"
   integrity sha512-5DFkuoqlv1uYQKxy8omFBeJPQcdoE07Kv2sferDCrAq1ohOU+MSDswDIbnx3YAM60qIOnYa53wBhXW0EbMonrQ==
+
+pdf2json@2.0.1, pdf2json@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/pdf2json/-/pdf2json-2.0.1.tgz#72e691e0eacb5fe54d2f77d929097a3cf5974f89"
+  integrity sha512-gj1kZOV2cA+bHyyZiwNU8AVduT4L+7dQODtJZRev7/23TZ0Mz5ILVLsaCLX2p7A8cdBYyDq6zXEBUBvtXgpIZg==
+  dependencies:
+    "@xmldom/xmldom" "^0.7.5"
+
+pdfreader@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/pdfreader/-/pdfreader-2.0.0.tgz#e65ee5e237c48ea41d68f6132579465f85b86712"
+  integrity sha512-ieCZ89yl1cb8olOhzMsSJgRJ+mR6tTwG/AGy9nWXzFPhzGgQA76Qh7CCWk6QTE3V30z2Hre1EVagzIjhNERYGw==
+  dependencies:
+    pdf2json "2.0.1"
 
 picomatch@^2.0.4, picomatch@^2.2.1:
   version "2.3.1"
