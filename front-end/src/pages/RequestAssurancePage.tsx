@@ -1,4 +1,13 @@
-import { Heading, HStack, IconButton, Text, VStack } from "@chakra-ui/react";
+import {
+  Button,
+  Checkbox,
+  Heading,
+  HStack,
+  IconButton,
+  Link,
+  Text,
+  VStack,
+} from "@chakra-ui/react";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
@@ -339,21 +348,20 @@ function FourthStepForm({ onPrev, onSuccess, initialValues }: any) {
           {...register("amount")}
         />
 
-        <HStack>
-          <IconButton
-            type="button"
-            colorScheme="blue"
-            aria-label="Voltar"
-            icon={<FaArrowLeft />}
-            onClick={onPrev}
-          />
-          <IconButton
-            type="submit"
-            colorScheme="blue"
-            aria-label="Avançar"
-            icon={<FaArrowRight />}
-          />
-        </HStack>
+        <Checkbox w="100%">
+          Li e estou de acordo com o <Link color="blue">Termo de Uso</Link> e{" "}
+          <Link color="blue">Política de Privacidade</Link>
+        </Checkbox>
+
+        <Checkbox w="100%">
+          Declaro que os dados enviados são verdadeiros. E ciente sobre a
+          falsidade de dados configura crime previsto no{" "}
+          <Link color="blue">Código Penal Brasileiro</Link>
+        </Checkbox>
+
+        <Button type="submit" colorScheme="blue" aria-label="Enviar">
+          Enviar
+        </Button>
       </VStack>
     </form>
   );

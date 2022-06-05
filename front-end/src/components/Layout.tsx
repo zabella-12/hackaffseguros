@@ -5,7 +5,7 @@ export function Layout({ children }: any) {
   return (
     <>
       <Navbar />
-      <Container p="4">{children}</Container>
+      <Container pt="4" pb="8">{children}</Container>
     </>
   );
 }
