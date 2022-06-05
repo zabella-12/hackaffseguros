@@ -1,5 +1,11 @@
 # hackaffseguros
 
+## Stack
+
+<div align="center">
+  <img width="500" alt="image" src="https://user-images.githubusercontent.com/6686410/172063305-d8d81c5f-fd7c-41ef-8c43-d4713b51aa33.png">
+</div>
+
 ## Back-End
 
 ## Front-End
