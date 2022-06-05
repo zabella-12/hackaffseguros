@@ -213,9 +213,21 @@ function SecondStepForm({ onPrev, onSuccess }: any) {
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
       <VStack>
-        <InputField label="Balanço patrimonial" type="file" />
-        <InputField label="Demonstração do resultado" type="file" />
-        <InputField label="Fluxo de caixa" type="file" />
+        <InputField
+          label="Balanço patrimonial"
+          type="file"
+          tooltip="Insira o valor do ativo total da empresa"
+        />
+        <InputField
+          label="Demonstração do resultado"
+          type="file"
+          tooltip="Insira o valor do passivo total da empresa"
+        />
+        <InputField
+          label="Fluxo de caixa"
+          type="file"
+          tooltip="Insira o valor do patrimônio líquido total da empresa"
+        />
         <HStack>
           <IconButton
             type="button"
