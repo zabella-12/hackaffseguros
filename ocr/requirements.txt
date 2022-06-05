@@ -1,1 +1,4 @@
 pdfminer.six
+matplotlib
+numpy
+jupyter
